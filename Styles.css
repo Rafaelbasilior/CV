@@ -1,0 +1,60 @@
+body {
+    font-family: 'Raleway', sans-serif;
+}
+.menu{
+    background-color: purple;
+    color: white;
+    text-align: center;
+}
+.menu ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    }
+    .menu ul li{
+        margin: 20px;
+    }
+
+.titulo{
+    text-align: center;
+    height: 180px;
+}
+.titulo h2{
+    font-weight: 500;
+}
+header{
+    width: 100;
+    height: auto;
+}
+.imgsize{
+    height: 40vh;
+    width: 40vw;
+    object-fit: contain;
+}
+main{
+    display: flex;
+}
+main div {
+    width: 70%;
+
+}
+main aside{
+    width: 30% ;
+}
+.info{
+    background-color: rgb(41, 195, 195);
+}
+.data{
+    background-color: rgb(34, 226, 162);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+ .containerImg{
+    width: 100%;
+    background-color: rgb(13, 110, 78) ;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+ }
